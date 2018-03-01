@@ -99,6 +99,13 @@ public class Main extends Application  implements EventHandler<ActionEvent>{
         //Login button
         LoginButton = new Button("Log In");
         GridPane.setConstraints(LoginButton, 26, 22);
+        LoginButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                System.out.println("Login: " + nameInput.getText());
+                System.out.println("Password: " + passwordInput.getText());
+            }
+        });
 
         //Back button
         Button BackButton = new Button("Back");
