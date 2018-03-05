@@ -118,6 +118,17 @@ public class Main extends Application {
             }
         });
 
+        Button backButton = new Button("Back");
+        backButton.setAlignment(Pos.TOP_RIGHT);
+        backButton.setOnAction(new EventHandler<ActionEvent>() {
+            @Override
+            public void handle(ActionEvent event) {
+                //window.close();
+                window.setScene(scene1);
+                //window.show();
+            }
+        });
+
         GridPane Center = new GridPane();
         Center.setPadding(new Insets(10, 10, 10, 10));
         Center.setVgap(8);
@@ -127,6 +138,16 @@ public class Main extends Application {
 
         BorderPane border2 = new BorderPane();
         border2.setCenter(Center);
+        border2.setRight(backButton);
+
+        GridPane Right = new GridPane();
+        Right.setPadding(new Insets(10, 10, 10, 10));
+        Right.setVgap(8);
+        Right.setHgap(10);
+        Right.getChildren().addAll(backButton);
+        Right.setAlignment(Pos.TOP_RIGHT);
+
+        border2.setRight(Right);
 
         scene2 = new Scene(border2, border.getWidth(), border.getHeight());
 
