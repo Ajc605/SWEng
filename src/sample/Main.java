@@ -96,14 +96,14 @@ public class Main extends Application {
         Label userLabel = new Label("Username");
         userLabel.setAlignment(Pos.CENTER);
         GridPane.setConstraints(userLabel, 0, 0);
-        Label passwordLabel = new Label("password");
+        Label passwordLabel = new Label("Password");
         passwordLabel.setAlignment(Pos.CENTER);
         GridPane.setConstraints(passwordLabel, 0, 1);
 
-        TextField user = new TextField("Username");
+        TextField user = new TextField();
         user.setAlignment(Pos.CENTER);
         GridPane.setConstraints(user, 1, 0);
-        TextField password = new TextField("Password");
+        TextField password = new TextField();
         password.setAlignment(Pos.CENTER);
         GridPane.setConstraints(password, 1, 1);
 
