@@ -62,6 +62,30 @@ public class Controller {
         window.show();
     }
 
+    public void toArea3(ActionEvent event) throws IOException {
+
+        //Getting the layout from file
+        Parent area3Layout = FXMLLoader.load(getClass().getResource("area3.fxml"));
+        //Making a new scene with new layout
+        Scene area3Scene  = new Scene(area3Layout);
+        //Used to get the current window
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(area3Scene);
+        window.show();
+    }
+
+    public void toArea4(ActionEvent event) throws IOException {
+
+        //Getting the layout from file
+        Parent area4Layout = FXMLLoader.load(getClass().getResource("area4.fxml"));
+        //Making a new scene with new layout
+        Scene area4Scene  = new Scene(area4Layout);
+        //Used to get the current window
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(area4Scene);
+        window.show();
+    }
+
 
 
 
