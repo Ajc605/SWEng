@@ -38,6 +38,31 @@ public class Controller {
         window.show();
     }
 
+    public void toWelcomePicture(ActionEvent event) throws IOException {
+
+        //Getting the layout from file
+        Parent welcomePictureLayout = FXMLLoader.load(getClass().getResource("welcomePicture.fxml"));
+        //Making a new scene with new layout
+        Scene welcomePictureScene  = new Scene(welcomePictureLayout);
+        //Used to get the current window
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(welcomePictureScene);
+        window.show();
+    }
+
+    public void toMap(ActionEvent event) throws IOException {
+
+        //Getting the layout from file
+        Parent mapLayout = FXMLLoader.load(getClass().getResource("map.fxml"));
+        //Making a new scene with new layout
+        Scene mapScene  = new Scene(mapLayout);
+        //Used to get the current window
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(mapScene);
+        window.show();
+    }
+
+
 
 
 }
