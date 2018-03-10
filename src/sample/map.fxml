@@ -2,21 +2,30 @@
 
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-<<<<<<< HEAD
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.161" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
-   <children>
-      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#toArea1" text="area1" />
-      <Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" onAction="#toArea2" text="area2" />
-      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#toArea3" text="area3" />
-      <Button layoutX="534.0" layoutY="361.0" mnemonicParsing="false" text="area4" />
-=======
+
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="area1" />
-      <Button layoutX="534.0" layoutY="14.0" mnemonicParsing="false" text="area2" />
-      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#toArea3" text="area3" />
-      <Button layoutX="534.0" layoutY="361.0" mnemonicParsing="false" onAction="#toArea4" text="area4" />
->>>>>>> 84873fd3e7112c4e4f663b74b7e531d242d28ee5
+      <Button layoutX="20.0" layoutY="20.0" mnemonicParsing="false" onAction="#toArea1" text="Area 1">
+         <font>
+            <Font name="Chalkboard SE Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="20.0" layoutY="360.0" mnemonicParsing="false" onAction="#toArea3" text="Area 3">
+         <font>
+            <Font name="Chalkboard SE Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="470.0" layoutY="20.0" mnemonicParsing="false" onAction="#toArea2" text="Area 2">
+         <font>
+            <Font name="Chalkboard SE Bold" size="13.0" />
+         </font>
+      </Button>
+      <Button layoutX="470.0" layoutY="360.0" mnemonicParsing="false" onAction="#toArea3" text="Area 4">
+         <font>
+            <Font name="Chalkboard SE Bold" size="13.0" />
+         </font>
+      </Button>
    </children>
 </AnchorPane>
