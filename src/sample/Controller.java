@@ -17,7 +17,7 @@ public class Controller {
 
         System.out.println("Go");
         //Getting the layout from file
-        Parent ChangeScene = FXMLLoader.load(getClass().getResource("LoginScene.fxml"));
+        Parent ChangeScene = FXMLLoader.load(getClass().getResource("ChooseYourAdventure.fxml"));
         //Making a new scene with new layout
         Scene LoginScene = new Scene(ChangeScene);
         //Used to get the current window
