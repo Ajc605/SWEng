@@ -26,6 +26,18 @@ public class Controller {
         window.show();
     }
 
+    public void toSettings(ActionEvent event) throws IOException {
+
+        //Getting the layout from file
+        Parent SettingLayout = FXMLLoader.load(getClass().getResource("settingmenu.fxml"));
+        //Making a new scene with new layout
+        Scene SettingScene  = new Scene(SettingLayout);
+        //Used to get the current window
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.setScene(SettingScene);
+        window.show();
+    }
+
     public void BackToMainScene(ActionEvent event) throws IOException {
 
         //Getting the layout from file
@@ -39,7 +51,6 @@ public class Controller {
     }
 
     public void toWelcomePicture(ActionEvent event) throws IOException {
-
         //Getting the layout from file
         Parent welcomePictureLayout = FXMLLoader.load(getClass().getResource("welcomePicture.fxml"));
         //Making a new scene with new layout
