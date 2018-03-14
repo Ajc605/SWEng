@@ -2,35 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cdb932d9-7e58-4d94-93a9-e7b232ef17da" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/sample/area1a.fxml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Akidemia Logo.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/dinosaur.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/file.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/filebright.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/filesbright.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/forest_path_anime_background_by_wbd-d3l83r9.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/heck.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/jfanskfs.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lock.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/lockbright.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/mesozoic.jpg" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/minimap.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/minmap.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/out/production/SWEng/sample/Main.class" afterPath="$PROJECT_DIR$/out/production/SWEng/sample/Main.class" />
-      <change beforePath="$PROJECT_DIR$/settings.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/settingsbright.png" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/src/sample/ChooseYourAdventure.fxml" afterPath="$PROJECT_DIR$/src/sample/ChooseYourAdventure.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Controller.java" afterPath="$PROJECT_DIR$/src/sample/Controller.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/Main.java" afterPath="$PROJECT_DIR$/src/sample/Main.java" />
-      <change beforePath="$PROJECT_DIR$/src/sample/area1.fxml" afterPath="$PROJECT_DIR$/src/sample/area1.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/area2.fxml" afterPath="$PROJECT_DIR$/src/sample/area2.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/area3.fxml" afterPath="$PROJECT_DIR$/src/sample/area3.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/area4.fxml" afterPath="$PROJECT_DIR$/src/sample/area4.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/map.fxml" afterPath="$PROJECT_DIR$/src/sample/map.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/sample.fxml" afterPath="$PROJECT_DIR$/src/sample/sample.fxml" />
-      <change beforePath="$PROJECT_DIR$/src/sample/welcomePicture.fxml" afterPath="$PROJECT_DIR$/src/sample/welcomePicture.fxml" />
-      <change beforePath="$PROJECT_DIR$/welcomepicture.png" afterPath="" />
     </list>
     <ignored path="JavaFxApplication.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -218,6 +190,13 @@
               <item name="SWEng" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="sample" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SWEng" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SWEng" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="sample" type="462c0819:PsiDirectoryNode" />
+              <item name="MediaSweng" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -417,7 +396,21 @@
       <option name="project" value="LOCAL" />
       <updated>1520959888849</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added buttons and pictures">
+      <created>1521025264699</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1521025264699</updated>
+    </task>
+    <task id="LOCAL-00006" summary="The images are added into git">
+      <created>1521025922201</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1521025922201</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
@@ -439,7 +432,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1924342" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1924342" sideWeight="0.6703755" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Learn" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -503,7 +496,8 @@
     <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
     <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
     <MESSAGE value="Added buttons and pictures" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added buttons and pictures" />
+    <MESSAGE value="The images are added into git" />
+    <option name="LAST_COMMIT_MESSAGE" value="The images are added into git" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
