@@ -60,6 +60,6 @@
             </Button>
          </children>
       </GridPane>
-      <Button layoutX="14.0" layoutY="21.0" mnemonicParsing="false" onAction="#toWelcomePicture" text="Back" />
+      <Button layoutX="14.0" layoutY="21.0" mnemonicParsing="false" onAction="#PressGo" text="Home" />
    </children>
 </AnchorPane>
