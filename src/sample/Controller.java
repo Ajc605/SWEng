@@ -8,6 +8,7 @@ import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
+import javafx.stage.Window;
 
 import java.io.IOException;
 
@@ -108,6 +109,25 @@ public class Controller {
         Scene area4Scene  = new Scene(area4Layout, window.getWidth(), window.getHeight());
         window.setScene(area4Scene);
         window.show();
+    }
+
+    public void childLockPassword(ActionEvent event) throws IOException {
+
+        //Getting the layout from file
+        Parent childlock = FXMLLoader.load(getClass().getResource("childLockPassword.fxml"));
+        Stage childLockWindow = new Stage();
+        childLockWindow.setTitle("Child lock");
+        childLockWindow.setScene(new Scene(childlock));
+        childLockWindow.show();
+
+
+    }
+
+    public void closewindow(ActionEvent event){
+
+        //Used to get the current window
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.close();
     }
 
 
