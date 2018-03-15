@@ -3,6 +3,7 @@
 
 # User-specific stuff:
 .idea/**/workspace.xml
+.idea/workspace.xml
 SWEng/.idea/workspace.xml
 .idea/**/tasks.xml
 .idea/dictionaries
@@ -32,6 +33,7 @@ cmake-build-release/
 ## Plugin-specific files:
 
 # IntelliJ
+SWEng/out/
 out/
 
 # mpeltonen/sbt-idea plugin
