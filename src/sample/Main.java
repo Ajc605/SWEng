@@ -18,6 +18,9 @@ public class Main extends Application {
 
     @Override
     public void start(Stage primaryStage) throws Exception{
+//        Sound sound = new Sound("src/sample/MediaSweng/Dinosaur1.wav");
+//        sound.play();
+
         Parent root = FXMLLoader.load(getClass().getResource("sample.fxml"));
         primaryStage.setTitle("Akidemia");
         primaryStage.setScene(new Scene(root, width, height));

@@ -108,12 +108,14 @@ public class Controller {
 
     public void toArea1a(ActionEvent event) throws IOException {
 
+        Sound dinosaur1 = new Sound("src/sample/MediaSweng/Dinosaur1.wav");
         //Getting the layout from file
         Parent area1aLayout = FXMLLoader.load(getClass().getResource("area1a.fxml"));
         //Used to get the current window
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
         window.setScene(new Scene(area1aLayout, window.getWidth(), window.getHeight()));
         window.show();
+        dinosaur1.play();
     }
 
 }
