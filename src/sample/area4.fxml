@@ -9,12 +9,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+<AnchorPane onMouseClicked="#toMap" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
-      <Button layoutX="-21.0" layoutY="197.0" mnemonicParsing="false" onAction="#toMap" prefHeight="180.0" prefWidth="210.0" style="-fx-background-color: transparent; -fx-text-fill: transparent;" text="Map">
-         <font>
-            <Font name="Comic Sans MS Bold" size="83.0" />
-         </font>
+      <Button layoutX="14.0" layoutY="226.0" mnemonicParsing="false" style="-fx-background-color: transparent; -fx-text-fill: transparent;">
          <graphic>
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>

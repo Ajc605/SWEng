@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
+<?import javafx.scene.text.*?>
 <?import java.lang.*?>
 <?import javafx.scene.control.*?>
 <?import javafx.scene.image.*?>
@@ -14,7 +15,7 @@
             <Image url="@MediaSweng/mesozoic.jpg" />
          </image>
       </ImageView>
-      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#toMap" style="-fx-background-color: transparent; -fx-text-fill: transparent;" text="Map">
+      <Button layoutX="14.0" layoutY="361.0" mnemonicParsing="false" onAction="#toMap" style="-fx-background-color: transparent; -fx-text-fill: transparent;">
          <graphic>
             <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -22,7 +23,7 @@
                </image>
             </ImageView>
          </graphic></Button>
-      <Button layoutX="281.0" layoutY="292.0" mnemonicParsing="false" onAction="#toArea1a" style="-fx-background-color: transparent; -fx-text-fill: transparent;" text="Button">
+      <Button layoutX="281.0" layoutY="292.0" mnemonicParsing="false" onAction="#toArea1a" onMouseEntered="#excCursor" onMouseExited="#mag2Cursor" prefHeight="129.0" prefWidth="319.0" style="-fx-background-color: transparent; -fx-text-fill: transparent;" text="Button">
          <graphic>
             <ImageView fitHeight="119.0" fitWidth="325.0" pickOnBounds="true" preserveRatio="true">
                <image>
@@ -31,5 +32,10 @@
             </ImageView>
          </graphic>
       </Button>
+      <Text layoutX="176.0" layoutY="81.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Click on the dinosaurs to explore">
+         <font>
+            <Font name="Dimbo Regular" size="38.0" />
+         </font>
+      </Text>
    </children>
 </AnchorPane>
