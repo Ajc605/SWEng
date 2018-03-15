@@ -7,7 +7,6 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-
 <Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="440.0" prefWidth="420.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
    <children>
       <HBox layoutX="50.0" layoutY="46.0" prefHeight="331.0" prefWidth="353.0">
@@ -25,7 +24,7 @@
                <children>
                   <AnchorPane prefHeight="55.0" prefWidth="160.0">
                      <children>
-                        <Button layoutX="35.0" layoutY="73.0" mnemonicParsing="false" text="Set" />
+                        <Button layoutX="35.0" layoutY="73.0" mnemonicParsing="false" onAction="#toPasswordsettings" text="Set" />
                      </children>
                   </AnchorPane>
                </children>
