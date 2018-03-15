@@ -39,7 +39,7 @@
                      <font>
                         <Font name="Chalkboard SE Bold" size="18.0" />
                      </font></Button>
-                  <Button layoutX="360.0" layoutY="136.0" mnemonicParsing="false" prefHeight="118.0" prefWidth="136.0" style="-fx-background-color: transparent; -fx-text-fill: transparent;" text="Lock">
+                  <Button layoutX="360.0" layoutY="136.0" mnemonicParsing="false" onAction="#toChildLock" prefHeight="118.0" prefWidth="136.0" style="-fx-background-color: transparent; -fx-text-fill: transparent;" text="Lock">
                      <font>
                         <Font name="Chalkboard SE Bold" size="18.0" />
                      </font>

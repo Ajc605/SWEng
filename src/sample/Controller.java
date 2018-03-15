@@ -138,4 +138,13 @@ public class Controller {
         dinosaur1.play();
     }
 
+    public void toChildLock(ActionEvent event) throws IOException {
+
+        Parent ChildLock = FXMLLoader.load(getClass().getResource("childLock.fxml"));
+        Stage window = new Stage();
+        window.setScene(new Scene(ChildLock, window.getWidth(), window.getHeight()));
+        window.show();
+
+    }
+
 }
