@@ -138,13 +138,20 @@ public class Controller {
         dinosaur1.play();
     }
 
-    public void toChildLock(ActionEvent event) throws IOException {
+    public void childLockPassword(ActionEvent event) throws IOException {
 
-        Parent ChildLock = FXMLLoader.load(getClass().getResource("childLock.fxml"));
-        Stage window = new Stage();
-        window.setScene(new Scene(ChildLock, window.getWidth(), window.getHeight()));
-        window.show();
-
+        //Getting the layout from file
+        Parent childlock = FXMLLoader.load(getClass().getResource("childLock.fxml"));
+        Stage childLockWindow = new Stage();
+        childLockWindow.setTitle("Child lock");
+        childLockWindow.setScene(new Scene(childlock));
+        childLockWindow.show();
     }
 
+
+    public void CLoseWindow(ActionEvent event){
+
+        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
+        window.close();
+    }
 }
