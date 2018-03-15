@@ -4,6 +4,7 @@ import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 
 import java.io.File;
+import java.time.Duration;
 
 //	Sound newSound = new Sound("../resources/example.mp3");
 //	newSound.play();
@@ -20,5 +21,15 @@ public class Sound{
 		this.mediaPlayer.stop();
 		this.mediaPlayer.play();
 	}
+
+	//public void loop(){
+	//	this.mediaPlayer.stop();
+	//	mediaPlayer.setOnEndOfMedia(new Runnable() {
+	//		public void run(){
+	//			mediaPlayer.seek(Duration.ZERO);
+	//		}
+	//	});
+	//	this.mediaPlayer.play();
+	//}
 
 }
