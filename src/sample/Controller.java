@@ -3,15 +3,22 @@ package sample;
 
 //import java.awt.event.ActionEvent;
 import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
 import javafx.fxml.FXMLLoader;
+import javafx.fxml.Initializable;
 import javafx.scene.Node;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
 
 import java.io.IOException;
+import java.net.URL;
+import java.util.ResourceBundle;
+import javafx.scene.control.Label;
 
 public class Controller {
+
+    @FXML private Label PasswordLabel;
 
     public void PressGo(ActionEvent event) throws IOException {
 
@@ -29,12 +36,10 @@ public class Controller {
     public void toSettings(ActionEvent event) throws IOException {
 
         //Getting the layout from file
-        Parent SettingLayout = FXMLLoader.load(getClass().getResource("settingmenu.fxml"));
-        //Making a new scene with new layout
-        Scene SettingScene  = new Scene(SettingLayout);
+        Parent SettingLayout = FXMLLoader.load(getClass().getResource("Settings.fxml"));
         //Used to get the current window
-        Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-        window.setScene(SettingScene);
+        Stage window = new Stage();
+        window.setScene(new Scene(SettingLayout));
         window.show();
     }
 
@@ -149,9 +154,14 @@ public class Controller {
     }
 
 
-    public void CLoseWindow(ActionEvent event){
+    public void CloseWindow(ActionEvent event){
 
         Stage window = (Stage)((Node)event.getSource()).getScene().getWindow();
-        window.close();
+        PasswordLabel.setText("Your Password is wrong");
+        //window.close();
     }
+
+
+
+
 }
