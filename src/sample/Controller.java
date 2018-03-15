@@ -24,11 +24,9 @@ public class Controller {
         System.out.println("Go");
         //Getting the layout from file
         Parent ChangeScene = FXMLLoader.load(getClass().getResource("ChooseYourAdventure.fxml"));
-        //Making a new scene with new layout
-        Scene LoginScene = new Scene(ChangeScene);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        window.setScene(LoginScene);
+        window.setScene(new Scene(ChangeScene, window.getWidth(), window.getHeight()));
         window.show();
     }
 
@@ -36,11 +34,9 @@ public class Controller {
 
         //Getting the layout from file
         Parent SettingLayout = FXMLLoader.load(getClass().getResource("settingmenu.fxml"));
-        //Making a new scene with new layout
-        Scene SettingScene = new Scene(SettingLayout);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        window.setScene(SettingScene);
+        window.setScene(new Scene(SettingLayout, window.getWidth(), window.getHeight()));
         window.show();
     }
 
@@ -48,22 +44,18 @@ public class Controller {
 
         //Getting the layout from file
         Parent MainLayout = FXMLLoader.load(getClass().getResource("sample.fxml"));
-        //Making a new scene with new layout
-        Scene mainScene = new Scene(MainLayout);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        window.setScene(mainScene);
+        window.setScene(new Scene(MainLayout, window.getWidth(), window.getHeight()));
         window.show();
     }
 
     public void toWelcomePicture(ActionEvent event) throws IOException {
         //Getting the layout from file
         Parent welcomePictureLayout = FXMLLoader.load(getClass().getResource("welcomePicture.fxml"));
-        //Making a new scene with new layout
-        Scene welcomePictureScene = new Scene(welcomePictureLayout);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        window.setScene(welcomePictureScene);
+        window.setScene(new Scene(welcomePictureLayout, window.getWidth(), window.getHeight()));
         window.show();
     }
 
@@ -71,11 +63,9 @@ public class Controller {
 
         //Getting the layout from file
         Parent mapLayout = FXMLLoader.load(getClass().getResource("map.fxml"));
-        //Making a new scene with new layout
-        Scene mapScene = new Scene(mapLayout);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        window.setScene(mapScene);
+        window.setScene(new Scene(mapLayout, window.getWidth(), window.getHeight()));
         window.show();
     }
 
@@ -83,11 +73,10 @@ public class Controller {
 
         //Getting the layout from file
         Parent area1Layout = FXMLLoader.load(getClass().getResource("area1.fxml"));
-        //Making a new scene with new layout
-        Scene area1Scene = new Scene(area1Layout);
-        magCursor(area1Scene);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene area1Scene = new Scene(area1Layout, window.getWidth(), window.getHeight());
+        magCursor(area1Scene);
         window.setScene(area1Scene);
         window.show();
     }
@@ -97,11 +86,10 @@ public class Controller {
 
         //Getting the layout from file
         Parent area2Layout = FXMLLoader.load(getClass().getResource("area2.fxml"));
-        //Making a new scene with new layout
-        Scene area2Scene = new Scene(area2Layout);
-        magCursor(area2Scene);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene area2Scene = new Scene(area2Layout, window.getWidth(), window.getHeight());
+        magCursor(area2Scene);
         window.setScene(area2Scene);
         window.show();
     }
@@ -110,11 +98,10 @@ public class Controller {
 
         //Getting the layout from file
         Parent area3Layout = FXMLLoader.load(getClass().getResource("area3.fxml"));
-        //Making a new scene with new layout
-        Scene area3Scene = new Scene(area3Layout);
-        magCursor(area3Scene);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene area3Scene = new Scene(area3Layout, window.getWidth(), window.getHeight());
+        magCursor(area3Scene);
         window.setScene(area3Scene);
         window.show();
     }
@@ -123,11 +110,10 @@ public class Controller {
 
         //Getting the layout from file
         Parent area4Layout = FXMLLoader.load(getClass().getResource("area4.fxml"));
-        //Making a new scene with new layout
-        Scene area4Scene = new Scene(area4Layout);
-        magCursor(area4Scene);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
+        Scene area4Scene = new Scene(area4Layout, window.getWidth(), window.getHeight());
+        magCursor(area4Scene);
         window.setScene(area4Scene);
         window.show();
     }
@@ -136,11 +122,9 @@ public class Controller {
 
         //Getting the layout from file
         Parent area1aLayout = FXMLLoader.load(getClass().getResource("area1a.fxml"));
-        //Making a new scene with new layout
-        Scene area1aScene = new Scene(area1aLayout);
         //Used to get the current window
         Stage window = (Stage) ((Node) event.getSource()).getScene().getWindow();
-        window.setScene(area1aScene);
+        window.setScene(new Scene(area1aLayout, window.getWidth(), window.getHeight()));
         window.show();
     }
 
